@@ -1,0 +1,5 @@
+pipeline:
+  lint:
+    image: node:12.6.0-alpine
+    commands:
+      - npx eslint src/
